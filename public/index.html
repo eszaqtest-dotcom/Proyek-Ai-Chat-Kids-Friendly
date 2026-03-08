@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Chat Kids Friendly</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🤖 Sahabat Pintar Anak</h1>
+    <div class="header-buttons">
+      <button id="reset-chat">🔄 Reset Chat</button>
+      <select id="mode-select">
+        <option value="kids">👶 Anak Kecil (4–8 tahun)</option>
+        <option value="teens">🧑 Anak Besar (9–12 tahun)</option>
+      </select>
+    </div>
+    <small class="mode-info">
+      👶 Anak Kecil: jawaban singkat, sederhana, penuh emoji.<br>
+      🧑 Anak Besar: jawaban lebih detail, informatif, tetap ramah.
+    </small>
+  </header>
+
+  <div id="chat-box"></div>
+
+  <form id="chat-form">
+    <input type="text" id="user-input" placeholder="Tanya apa saja..." />
+    <button type="submit">Kirim</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
